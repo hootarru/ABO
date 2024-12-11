@@ -1,30 +1,49 @@
-.screen1 {
+  .face1 {
+      width: 100vw;
+  }
+
+  .screen2 {
+    width: 100vw;
+    height: 100vw;
+    animation-name: headerLane;
+      animation-duration: 0.5s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-timing-function: steps(1, end);
+  }
+@keyframes headerLane {
+  0% {
+    background-image: url(../images/ek1-1.png);
     width: 1270px;
-    height: 1280px;
-    background-image: url('../images/own.png');
-    animation: abo 0.6s infinite  steps(1);
+    height: 1270px;
+  }
+
+  30% {
+    background-image: url(../images/ek1-2.png);
+    width: 1270px;
+      height: 1270px;
+  }
+
+  60% {
+    background-image: url(../images/ek1-3.png);
+    width: 1270px;
+      height: 1270px;
+  }
+
+  100% {
+    background-image: url(../images/ek1-4.png);
+    width: 1270px;
+      height: 1270px;
+  }
 }
 
-@keyframes abo {
-    0% {
-        background-position: 0 top;
-    }
-    25% {
-        background-position: -1270px top;
-    }
-    50% {
-        background-position: -2540px top;
-    }
-    75% {
-       background-position: -3810px top;
-    }
-    100% {
-         background-position: -5080px top;
-    }
+a.eyess {
+  background: url("..ABO/images/eyes1.png");
+  display: block;
+  width: 400px;
+  height: 200px;
+}
 
-
-
-
-
-
+a.eyess:hover {
+  background: url("..ABO/images/eyes22.png");
 }
