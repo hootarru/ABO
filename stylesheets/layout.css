@@ -58,3 +58,6 @@ div {
   left: 0%;
   top: 76%;
 }
+.line {
+  animation: 7s infinite running line;
+}
