@@ -14,3 +14,47 @@ div {
   display: flex;
   align-items: center;
 }
+
+.screen1 {
+  position: relative;
+  height: 45vw;
+  background-size: cover;
+  background-image: url(images/.face1.svg);
+  width:100%
+
+}
+
+.error {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 100;
+}
+
+
+.screen2 {
+  position: relative;
+
+}
+.handright1 {
+  position: absolute;
+  left: 66%;
+  top: 34%;
+}
+
+.handleft1 {
+  position: absolute;
+  left: 0%;
+  top: 34%;
+}
+.handright2 {
+  position: absolute;
+  left: 62%;
+  top: 75%;
+}
+
+.handleft2 {
+  position: absolute;
+  left: 0%;
+  top: 76%;
+}
