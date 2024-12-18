@@ -1,15 +1,15 @@
 body {
-    -webkit-font-smoothing: antialiased;
-    background-color: #002AFF;
-    overflow-x: hidden;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    position: relative;
-  }
-  * {
-    box-sizing: border-box;
-  }
+  -webkit-font-smoothing: antialiased;
+  background-color: #002aff;
+  overflow-x: hidden;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+* {
+  box-sizing: border-box;
+}
 div {
   display: flex;
   align-items: center;
@@ -18,12 +18,36 @@ div {
 .screen1 {
   position: relative;
   height: 45vw;
+  background-image: url("../images/face1.svg");
   background-size: cover;
-  background-image: url(images/.face1.svg);
-  width:100%
-
+  width: 100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
 }
-
+.row {
+  position: relative;
+  width: 100%;
+}
+.playy {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.kv {
+  width: 58vw;
+}
+.vectors {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.vectors > img {
+  width: 30vw;
+}
+.vectors1 {
+  width: 5vw;
+}
 .error {
   position: absolute;
   top: 0;
@@ -31,11 +55,14 @@ div {
   z-index: 100;
 }
 
-
 .screen2 {
   position: relative;
-
 }
+
+.hands img {
+  width: 40vw;
+}
+
 .handright1 {
   position: absolute;
   left: 66%;

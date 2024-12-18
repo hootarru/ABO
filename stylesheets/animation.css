@@ -1,35 +1,33 @@
-  .face1 {
-      width: 100vw;
-  }
+.face1 {
+  width: 100vw;
+}
 .error {
   position: relative;
   animation-name: Appearance;
-    animation-duration: 0.3s;
-      animation-timing-function: cubic-bezier(.1, -.6, .2, 0);
-      animation-iteration-count: infinite;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
 }
 @keyframes Appearance {
   0% {
-      opacity: 0;
-
-    }
-    100% {
-      opacity: 1;
-
-    }
+    opacity: 0;
   }
-
-  .screen2 {
-    width: 100vw;
-    height: 100vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    animation-name: headerLane;
-      animation-duration: 0.5s;
-      animation-fill-mode: forwards;
-      animation-iteration-count: infinite;
-      animation-timing-function: steps(1, end);
+  100% {
+    opacity: 1;
   }
+}
+
+.screen2 {
+  width: 100vw;
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: headerLane;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1, end);
+}
 @keyframes headerLane {
   0% {
     background-image: url(../images/ek1-1.png);
@@ -40,23 +38,23 @@
   30% {
     background-image: url(../images/ek1-2.png);
     width: 100vw;
-      height: 100vw;
+    height: 100vw;
   }
 
   60% {
     background-image: url(../images/ek1-3.png);
     width: 100vw;
-      height: 100vw;
+    height: 100vw;
   }
 
   100% {
     background-image: url(../images/ek1-4.png);
     width: 100vw;
-      height: 100vw;
+    height: 100vw;
   }
 }
 
-a.eyess {
+/* a.eyess {
   background: url("..ABO/images/eyes1.png");
   display: block;
   width: 400px;
@@ -65,20 +63,19 @@ a.eyess {
 
 a.eyess:hover {
   background: url("..ABO/images/eyes22.png");
-}
+} */
 
 .handright1 {
-animation-name: motion;
-background-position: 0 0;
-animation-duration: 1.3s;
-animation-iteration-count: infinite;
-animation-direction: alternate-reverse;
-/* animation-direction: inherit; */
-/* animation-direction: initial; */
-
+  animation-name: motion;
+  background-position: 0 0;
+  animation-duration: 1.3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  /* animation-direction: inherit; */
+  /* animation-direction: initial; */
 }
 @keyframes motion {
-from {
+  from {
     margin-top: -3%;
     margin-left: 0%;
     width: 100%;
@@ -88,7 +85,7 @@ from {
     margin-top: 17%;
     margin-left: 6%;
     width: 100%;
-}
+  }
 }
 
 .handright2 {
@@ -100,13 +97,13 @@ from {
 }
 @keyframes motion2 {
   from {
-  left: 62%;
+    left: 62%;
     top: 70%;
     width: 100%;
   }
 
   to {
-  left: 63%;
+    left: 63%;
     top: 71%;
     width: 100%;
   }
@@ -153,15 +150,16 @@ from {
   }
 }
 
-
 .text1 {
   animation: playyy 1.3s linear infinite;
 }
 @keyframes playyy {
   0% {
-  transform: translateX(0); }
+    transform: translateX(0);
+  }
   100% {
-  transform: translateX(-100%);}
+    transform: translateX(-100%);
+  }
 }
 
 /* .alleyes1 {
