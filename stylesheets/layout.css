@@ -25,15 +25,11 @@ div {
   justify-content: center;
   align-items: center;
 }
-.meme {
+.eyeopen {
   position: absolute;
-  width: 100%;
-  margin-left: 14%;
-  height: 85%;
-  background-image: url(../images/eyes1.png);
-  background-size: cover;
-  z-index: 4;
-  justify-content: center;
+  top: 20vw;
+  left: 20vw;
+  z-index: 100;
 }
 
 .screen1 {
@@ -59,12 +55,18 @@ div {
 .kv {
   width: 58vw;
 }
-.errors {
+/* .screen4 img {
+  width: 30vw;
+} */
+
+/* .errors {
+  background-image: url("../images/error.png");
   width: 100vw;
-}
+} */
+
 .error {
   width: 100vw;
-
+  background-image: url("../images/error.png");
   position: absolute;
   top: 0vw;
   left: 38vw;
@@ -72,6 +74,7 @@ div {
 }
 .error2 {
   width: 100vw;
+  background-image: url("../images/error.png");
   position: absolute;
   top: 0.5vw;
   left: 23vw;
@@ -79,6 +82,7 @@ div {
 }
 .error3 {
   width: 100vw;
+  background-image: url("../images/error.png");
   position: absolute;
   top: 1vw;
   left: 8vw;
@@ -86,6 +90,7 @@ div {
 }
 .error4 {
   width: 100vw;
+  background-image: url("../images/error.png");
   position: absolute;
   top: 3vw;
   left: -9vw;
@@ -93,17 +98,19 @@ div {
 }
 .error5 {
   width: 100vw;
+  background-image: url("../images/error.png");
   position: absolute;
   top: 0;
   left: 40%;
   z-index: 104;
 }
 .error6 {
-  width: 100vw;
+  width: 50vw;
+  background-image: url("../images/error.png");
   position: absolute;
   top: 0;
-  left: 40%;
-  z-index: 105;
+  left: 40vw;
+  z-index: 110;
 }
 
 .hands img {
@@ -146,6 +153,6 @@ div {
   background-image: url("../images/alleyes.png");
   animation-name: open;
   background-repeat: no-repeat;
-  animation: open 2s steps(1) infinite;
+  animation: open 1.2s steps(1) infinite;
   animation-play-state: paused;
 }
