@@ -8,6 +8,47 @@
   animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
   animation-iteration-count: infinite;
 }
+
+.error2 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.error3 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.error4 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.error5 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.error6 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
 @keyframes Appearance {
   0% {
     opacity: 0;
@@ -68,22 +109,24 @@ a.eyess:hover {
 .handright1 {
   animation-name: motion;
   background-position: 0 0;
-  animation-duration: 1.3s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+
   /* animation-direction: inherit; */
   /* animation-direction: initial; */
 }
 @keyframes motion {
   from {
-    margin-top: -3%;
+    margin-top: -4%;
     margin-left: 0%;
     width: 100%;
   }
 
   to {
-    margin-top: 17%;
-    margin-left: 6%;
+    margin-top: 14%;
+    margin-left: 10%;
     width: 100%;
   }
 }
@@ -91,20 +134,21 @@ a.eyess:hover {
 .handright2 {
   animation-name: motion2;
   background-position: 0 0;
-  animation-duration: 0.1s;
+  animation-duration: 0.85s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
 @keyframes motion2 {
   from {
     left: 62%;
-    top: 70%;
+    top: 53%;
     width: 100%;
   }
 
   to {
-    left: 63%;
-    top: 71%;
+    left: 69%;
+    top: 61%;
     width: 100%;
   }
 }
@@ -112,40 +156,42 @@ a.eyess:hover {
 .handleft1 {
   animation-name: motion3;
   background-position: 0 0;
-  animation-duration: 0.4s;
+  animation-duration: 1.3s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
 @keyframes motion3 {
   from {
     left: 0%;
-    top: 34%;
+    top: -9%;
     width: 100%;
   }
 
   to {
-    left: -4%;
-    top: 36%;
+    left: -13%;
+    top: 8%;
     width: 100%;
   }
 }
 .handleft2 {
   animation-name: motion4;
   background-position: 0 0;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
+  animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
 }
 @keyframes motion4 {
   from {
     left: 0%;
-    top: 74%;
+    top: 54%;
     width: 100%;
   }
 
   to {
-    left: -5%;
-    top: 65%;
+    left: -2%;
+    top: 60%;
     width: 100%;
   }
 }
@@ -167,3 +213,24 @@ a.eyess:hover {
   height: 26.6vw;
   background-image: url('images/.alleyes.png');
 } */
+
+@keyframes open {
+  0% {
+    background-position: 0 top;
+  }
+  20% {
+    background-position: -129vw top;
+  }
+  40% {
+    background-position: -192vw top;
+  }
+  60% {
+    background-position: -252vw top;
+  }
+  80% {
+    background-position: -318vw top;
+  }
+}
+.eyeopen:hover {
+  animation-play-state: running;
+}

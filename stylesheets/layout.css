@@ -15,12 +15,34 @@ div {
   align-items: center;
 }
 
+.screen4 {
+  position: absolute;
+  height: 45vw;
+  background-image: url("../images/eyesvect.png");
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.meme {
+  position: absolute;
+  width: 100%;
+  margin-left: 14%;
+  height: 85%;
+  background-image: url(../images/eyes1.png);
+  background-size: cover;
+  z-index: 4;
+  justify-content: center;
+}
+
 .screen1 {
   position: relative;
   height: 45vw;
-  background-image: url("../images/face1.svg");
+  background-image: url("../images/eyesvect.png");
   background-size: cover;
   width: 100%;
+
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -37,47 +59,75 @@ div {
 .kv {
   width: 58vw;
 }
-.vectors {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.vectors > img {
-  width: 30vw;
-}
-.vectors1 {
-  width: 5vw;
+.errors {
+  width: 100vw;
 }
 .error {
+  width: 100vw;
+
+  position: absolute;
+  top: 0vw;
+  left: 38vw;
+  z-index: 100;
+}
+.error2 {
+  width: 100vw;
+  position: absolute;
+  top: 0.5vw;
+  left: 23vw;
+  z-index: 101;
+}
+.error3 {
+  width: 100vw;
+  position: absolute;
+  top: 1vw;
+  left: 8vw;
+  z-index: 107;
+}
+.error4 {
+  width: 100vw;
+  position: absolute;
+  top: 3vw;
+  left: -9vw;
+  z-index: 110;
+}
+.error5 {
+  width: 100vw;
   position: absolute;
   top: 0;
   left: 40%;
-  z-index: 100;
+  z-index: 104;
 }
-
-.screen2 {
-  position: relative;
+.error6 {
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  z-index: 105;
 }
 
 .hands img {
   width: 40vw;
 }
+.screen2 {
+  position: relative;
+}
 
 .handright1 {
   position: absolute;
-  left: 66%;
-  top: 34%;
+  left: 62%;
+  top: 0%;
 }
 
 .handleft1 {
   position: absolute;
   left: 0%;
-  top: 34%;
+  top: 0%;
 }
 .handright2 {
   position: absolute;
   left: 62%;
-  top: 75%;
+  top: 0%;
 }
 
 .handleft2 {
@@ -87,4 +137,15 @@ div {
 }
 .line {
   animation: 7s infinite running line;
+}
+
+.eyeopen {
+  position: relative;
+  width: 60vw;
+  height: 30vw;
+  background-image: url("../images/alleyes.png");
+  animation-name: open;
+  background-repeat: no-repeat;
+  animation: open 2s steps(1) infinite;
+  animation-play-state: paused;
 }
