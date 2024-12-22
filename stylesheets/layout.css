@@ -25,12 +25,6 @@ div {
   justify-content: center;
   align-items: center;
 }
-.eyeopen {
-  position: absolute;
-  top: 20vw;
-  left: 20vw;
-  z-index: 100;
-}
 
 .screen1 {
   position: relative;
@@ -55,62 +49,50 @@ div {
 .kv {
   width: 58vw;
 }
-/* .screen4 img {
-  width: 30vw;
-} */
-
-/* .errors {
-  background-image: url("../images/error.png");
-  width: 100vw;
-} */
 
 .error {
-  width: 100vw;
   background-image: url("../images/error.png");
-  position: absolute;
-  top: 0vw;
-  left: 38vw;
+  top: 25vw;
+  left: 49vw;
   z-index: 100;
 }
-.error2 {
-  width: 100vw;
-  background-image: url("../images/error.png");
+.errors > div {
   position: absolute;
-  top: 0.5vw;
-  left: 23vw;
+  width: 20vw;
+  height: 15vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.error2 {
+  background-image: url("../images/error.png");
+  top: 27vw;
+  left: 51vw;
   z-index: 101;
 }
 .error3 {
-  width: 100vw;
   background-image: url("../images/error.png");
   position: absolute;
-  top: 1vw;
-  left: 8vw;
+  top: 29vw;
+  left: 54.5vw;
   z-index: 107;
 }
 .error4 {
-  width: 100vw;
   background-image: url("../images/error.png");
-  position: absolute;
-  top: 3vw;
-  left: -9vw;
+  top: 30vw;
+  left: 57.5vw;
   z-index: 110;
 }
 .error5 {
-  width: 100vw;
   background-image: url("../images/error.png");
-  position: absolute;
-  top: 0;
-  left: 40%;
-  z-index: 104;
+  top: 33vw;
+  left: 59vw;
+  z-index: 111;
 }
 .error6 {
-  width: 50vw;
   background-image: url("../images/error.png");
-  position: absolute;
-  top: 0;
-  left: 40vw;
-  z-index: 110;
+  top: 39vw;
+  left: 53vw;
+  z-index: 112;
 }
 
 .hands img {
@@ -147,12 +129,81 @@ div {
 }
 
 .eyeopen {
-  position: relative;
-  width: 60vw;
-  height: 30vw;
+  width: 71vw;
+  height: 39vw;
+  margin: 0 auto;
+  margin-top: -8%;
+  z-index: 100;
+
   background-image: url("../images/alleyes.png");
-  animation-name: open;
   background-repeat: no-repeat;
-  animation: open 1.2s steps(1) infinite;
+  background-size: 426vw 39vw;
   animation-play-state: paused;
+}
+.strell {
+  width: 11vw;
+  height: 13vw;
+  margin-top: -9%;
+  margin-left: 18%;
+  background-image: url("../images/strela.png");
+  background-repeat: no-repeat;
+  background-size: 11vw 13vw;
+}
+
+.line {
+  width: 39vw;
+  height: 33vw;
+  margin-top: -33%;
+  margin-left: 17%;
+  background-image: url("../images/line.svg");
+  background-repeat: no-repeat;
+  background-size: 33vw 33vw;
+}
+.errordop {
+  background-image: url("../images/error.png");
+  position: absolute;
+  margin-top: 8vw;
+  margin-left: 24vw;
+  width: 20vw;
+  height: 15vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.errordop2 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  margin-top: 13vw;
+  margin-left: 26vw;
+  width: 20vw;
+  height: 15vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.errordop3 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  margin-top: 10vw;
+  margin-left: 29vw;
+  width: 20vw;
+  height: 15vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.fon {
+  position: relative;
+  width: 100vw;
+  height: 33vw;
+  background-image: url("../images/fon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mouth {
+  position: absolute;
+  margin-top: -37vw;
+  width: 53vw;
+  height: 50vw;
+  background-image: url("../images/mon.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation-name: mmm;
 }
