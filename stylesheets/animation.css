@@ -503,22 +503,22 @@
 }
 
 .krug2 {
-  animation: krugs 5s infinite ease-in-out;
-  animation-direction: alternate-reverse;
-}
-.krug3 {
   animation: krugs 3s infinite ease-in-out;
   animation-direction: alternate-reverse;
 }
+.krug3 {
+  animation: krugs 2s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
 .krug4 {
-  animation: krugs 4s infinite ease-in-out;
+  animation: krugs 3s infinite ease-in-out;
   animation-direction: alternate-reverse;
 }
 .krug5 {
   animation: krugs 1s infinite ease-in-out;
   animation-direction: alternate-reverse;
 }
-.krug6:hover {
+.krug6 {
   animation: krugs 2s infinite ease-in-out;
   animation-direction: reverse;
 }
@@ -527,15 +527,15 @@
   animation-direction: alternate-reverse;
 }
 .krug8 {
-  animation: krugs 5s infinite ease-in-out;
+  animation: krugs 2s infinite ease-in-out;
   animation-direction: alternate-reverse;
 }
 .krug9 {
-  animation: krugs 3s infinite ease-in-out;
+  animation: krugs 1s infinite ease-in-out;
   animation-direction: alternate;
 }
-.krug10:hover {
-  animation: krugs 3s infinite ease-in-out;
+.krug10 {
+  animation: krugs 2s infinite ease-in-out;
   animation-direction: alternate;
 }
 @keyframes krugs {
@@ -560,5 +560,44 @@
   100% {
     opacity: 1;
     background-position: -2.2vw -1vw;
+  }
+}
+.gameover {
+  animation: game 0.3s infinite;
+}
+@keyframes game {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.name {
+  animation: namee 0.2s infinite;
+}
+@keyframes namee {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.heartr {
+  animation: heartbb 0.4s infinite;
+}
+.heartr2 {
+  animation: heartbb 0.5s infinite;
+}
+.heartr3 {
+  animation: heartbb 0.6s infinite;
+}
+@keyframes heartbb {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
   }
 }

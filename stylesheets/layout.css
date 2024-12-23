@@ -603,3 +603,125 @@ div {
   z-index: 5;
   overflow: hidden;
 }
+.hootaruu {
+  position: absolute;
+  width: 25vw;
+  height: 15vw;
+  margin-top: 39.5vw;
+  margin-left: 54.5vw;
+  background-image: url("../images/hootaruu.svg");
+  background-size: cover;
+  z-index: 5;
+  overflow: hidden;
+}
+.gg {
+  position: absolute;
+  width: 20vw;
+  height: 10vw;
+  margin-top: 42vw;
+  margin-left: 33vw;
+  background-image: url("../images/gg.svg");
+  background-size: cover;
+  z-index: 8;
+  overflow: hidden;
+}
+.anna {
+  position: absolute;
+  width: 18vw;
+  height: 14vw;
+  margin-top: 40vw;
+  margin-left: 31vw;
+  background-image: url("../images/anna.svg");
+  background-size: cover;
+  z-index: 8;
+  overflow: hidden;
+}
+.gameover {
+  position: absolute;
+  width: 9vw;
+  height: 10vw;
+  margin-top: 45vw;
+  margin-left: 74vw;
+  background-image: url("../images/gameover.png");
+  background-size: cover;
+  z-index: 9;
+  overflow: hidden;
+}
+
+.heartb {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 30vw;
+  background-image: url("../images/heartb.png");
+  background-size: cover;
+  z-index: 10;
+  overflow: hidden;
+}
+.heartb2 {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 36vw;
+  background-image: url("../images/heartb.png");
+  background-size: cover;
+  z-index: 10;
+  overflow: hidden;
+}
+.heartb3 {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 42vw;
+  background-image: url("../images/heartb.png");
+  background-size: cover;
+  z-index: 10;
+  overflow: hidden;
+}
+.name {
+  position: absolute;
+  width: 7vw;
+  height: 5vw;
+  margin-top: 48vw;
+  margin-left: 48vw;
+  background-image: url("../images/name.svg");
+  background-size: cover;
+  z-index: 14;
+  overflow: hidden;
+}
+.heartr {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 30vw;
+  background-image: url("../images/heartr.png");
+  background-size: cover;
+  z-index: 12;
+  overflow: hidden;
+}
+.heartr2 {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 36vw;
+  background-image: url("../images/heartr.png");
+  background-size: cover;
+  z-index: 12;
+  overflow: hidden;
+}
+.heartr3 {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  margin-top: 40vw;
+  margin-left: 42vw;
+  background-image: url("../images/heartr.png");
+  background-size: cover;
+  z-index: 12;
+  overflow: hidden;
+}
