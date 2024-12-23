@@ -1,0 +1,141 @@
+/* проба второй экран */
+@media screen and (max-width: 767px) {
+  .screen1 {
+    position: relative;
+    width: 140vw;
+    height: 90vw;
+    background-image: url("../images/eyesvect.png");
+    background-size: cover;
+    width: 100%;
+  }
+
+  .kv {
+    width: 58vw;
+  }
+  .eyeopen {
+    display: none;
+  }
+  .line {
+    width: 65vw;
+    height: 51vw;
+    margin-top: 14vw;
+    margin-left: 23%;
+    background-image: url("../images/line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .strell {
+    display: none;
+  }
+  .errors > div {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .error4 {
+    display: none;
+  }
+
+  .error5 {
+    display: none;
+  }
+  .error {
+    background-image: url("../images/error.png");
+    top: 75vw;
+    left: 64vw;
+    z-index: 100;
+  }
+  .error2 {
+    background-image: url("../images/error.png");
+    top: 75vw;
+    left: -3vw;
+    z-index: 100;
+  }
+  .error6 {
+    display: none;
+  }
+  .error3 {
+    top: 67vw;
+    left: 27vw;
+  }
+
+  .handleft1 {
+    display: none;
+  }
+
+  .hands img {
+    width: 70vw;
+  }
+  .handright1 {
+    rotate: 20deg;
+    left: 37vw;
+    top: -40vw;
+    z-index: 10000;
+  }
+  .handleft2 {
+    rotate: 24deg;
+    margin-top: -14vw;
+    margin-left: -19vw;
+    z-index: 100;
+  }
+  .handright2 {
+    rotate: -16deg;
+    margin-top: 5vw;
+    margin-left: -30vw;
+    z-index: 100;
+  }
+  .errordop {
+    display: none;
+  }
+  .errordop2 {
+    display: none;
+  }
+  .errordop3 {
+    display: none;
+  }
+  .fon {
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+  }
+  .textt2,
+  .textt3 {
+    margin-top: -50vw;
+    width: 50vw;
+    height: 50vw;
+    background-image: url("../images/color.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .text2,
+  .text3,
+  .text4,
+  .text6,
+  .text8,
+  .text10,
+  .text3,
+  .text5,
+  .text6,
+  .textt4,
+  .textt5,
+  .textt6,
+  .textt7,
+  .textt8,
+  .textt9,
+  .textt10 {
+    display: none;
+  }
+  .text3,
+  .text5 {
+    position: absolute;
+    margin-top: -60vw;
+    width: 53vw;
+    height: 50vw;
+    background-image: url("../images/mon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
