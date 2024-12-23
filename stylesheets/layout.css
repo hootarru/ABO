@@ -560,3 +560,46 @@ div {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.kvlastt {
+  position: absolute;
+  width: 100vw;
+  height: 15vw;
+  margin-top: 40vw;
+  margin-left: 0vw;
+  background-image: url("../images/kvblack.svg");
+  background-size: cover;
+  z-index: 2;
+}
+.myeye {
+  position: absolute;
+  width: 20vw;
+  height: 30vw;
+  margin-top: 25vw;
+  margin-left: 80vw;
+  background-image: url("../images/myeye.png");
+  background-size: cover;
+  z-index: 5;
+  overflow: hidden;
+}
+.myeye2 {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  margin-top: 26vw;
+  margin-left: 60vw;
+  background-image: url("../images/myeye2.png");
+  background-size: cover;
+  z-index: 5;
+  overflow: hidden;
+}
+.hse {
+  position: absolute;
+  width: 35vw;
+  height: 10vw;
+  margin-top: 45vw;
+  margin-left: 0vw;
+  background-image: url("../images/hse.png");
+  background-size: cover;
+  z-index: 5;
+  overflow: hidden;
+}

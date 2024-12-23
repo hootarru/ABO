@@ -344,7 +344,7 @@
 .textt8,
 .textt9,
 .textt10 {
-  animation: playyy3 0.5s steps(5, jump-both) infinite;
+  animation: playyy3 0.5s steps(4, jump-both) infinite;
   animation-direction: reverse;
 }
 
@@ -534,7 +534,7 @@
   animation: krugs 3s infinite ease-in-out;
   animation-direction: alternate;
 }
-.krug10 {
+.krug10:hover {
   animation: krugs 3s infinite ease-in-out;
   animation-direction: alternate;
 }
