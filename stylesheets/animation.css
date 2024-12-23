@@ -315,6 +315,250 @@
     opacity: 1;
   }
 }
-.mmou {
-  animation: mmm 0.8s linear infinite;
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9,
+.text10 {
+  animation: playyy3 0.8s linear infinite;
+}
+
+@keyframes playyy3 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+.textt2,
+.textt3,
+.textt4,
+.textt5,
+.textt6,
+.textt7,
+.textt8,
+.textt9,
+.textt10 {
+  animation: playyy3 0.5s steps(5, jump-both) infinite;
+  animation-direction: reverse;
+}
+
+@keyframes playyy3 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+.textplus {
+  animation: strr 0.8s linear infinite;
+}
+.textplus:hover {
+  animation-duration: 4s;
+  transition: 5s;
+  width: 50vw;
+}
+@keyframes strr {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.errorlast1 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast2 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+
+.errorlast3 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast4 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast5 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.1s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast6 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.errorlast7 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.4s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+  animation-delay: 0.1s;
+}
+
+.errorlast8 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast9 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.3s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast10 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.1s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+
+.errorlast11 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.errorlast12 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.errorlast13 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.6s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.errorlast-1 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.1s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+  animation-delay: 0.4s;
+}
+.errorlast-2 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.1s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.errorlast-3 {
+  position: relative;
+  animation-name: Appearance;
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation-iteration-count: infinite;
+}
+.krug1:hover {
+  animation: krugs 2s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+
+.krug2 {
+  animation: krugs 5s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug3 {
+  animation: krugs 3s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug4 {
+  animation: krugs 4s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug5 {
+  animation: krugs 1s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug6:hover {
+  animation: krugs 2s infinite ease-in-out;
+  animation-direction: reverse;
+}
+.krug7:hover {
+  animation: krugs 4s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug8 {
+  animation: krugs 5s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+.krug9 {
+  animation: krugs 3s infinite ease-in-out;
+  animation-direction: alternate;
+}
+.krug10 {
+  animation: krugs 3s infinite ease-in-out;
+  animation-direction: alternate;
+}
+@keyframes krugs {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.fon {
+  animation: fonfon 0.3s infinite;
+}
+@keyframes fonfon {
+  0% {
+    opacity: 0;
+    background-position: 0 0;
+  }
+  50% {
+    background-position: -1vw 1vw;
+  }
+  100% {
+    opacity: 1;
+    background-position: -2.2vw -1vw;
+  }
 }

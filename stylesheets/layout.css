@@ -197,13 +197,366 @@ div {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.mouth {
+
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7,
+.text8,
+.text9,
+.text10 {
   position: absolute;
-  margin-top: -37vw;
+  margin-top: -31vw;
   width: 53vw;
   height: 50vw;
   background-image: url("../images/mon.png");
   background-size: contain;
   background-repeat: no-repeat;
-  animation-name: mmm;
+}
+.text2 {
+  margin-left: 0vw;
+}
+.text3 {
+  margin-left: 50vw;
+}
+.text4 {
+  margin-left: 100vw;
+}
+.text5 {
+  margin-left: 150vw;
+}
+.text6 {
+  margin-left: 200vw;
+}
+.text7 {
+  margin-left: 250vw;
+}
+/* .text8 {
+  margin-left: 400vw;
+}
+.text9 {
+  margin-left: 500vw;
+}
+.text10 {
+  margin-left: 600vw;
+} */
+
+.textt2,
+.textt3,
+.textt4,
+.textt5,
+.textt6,
+.textt7,
+.textt8,
+.textt9,
+.textt10 {
+  position: absolute;
+  margin-top: 2vw;
+  width: 34vw;
+  height: 34vw;
+  background-image: url("../images/color.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.textt2 {
+  margin-left: 0vw;
+}
+.textt3 {
+  margin-left: 50vw;
+}
+.textt4 {
+  margin-left: 100vw;
+}
+.textt5 {
+  margin-left: 150vw;
+}
+.textt6 {
+  margin-left: 200vw;
+}
+.textt7 {
+  margin-left: 250vw;
+}
+
+.str {
+  position: absolute;
+  margin-top: -12vw;
+  margin-left: 0vw;
+}
+.kvnow {
+  width: 62vw;
+  height: 45vw;
+  background-image: url(../images/zamena.svg);
+  background-size: contain;
+  position: absolute;
+  margin-top: 2vw;
+}
+.kvnow2 {
+  width: 50vw;
+  height: 7vw;
+  background-image: url(../images/kvnow2.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 10.5vw;
+  margin-left: 55vw;
+}
+.kvnoww {
+  width: 40vw;
+  height: 28vw;
+  background-image: url(../images/kvnoww.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 17.5vw;
+  margin-left: 62vw;
+}
+
+.kover {
+  width: 65vw;
+  height: 28vw;
+  background-image: url(../images/kover.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 17.5vw;
+  margin-left: 0vw;
+  z-index: 4;
+}
+.krug1 {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../images/krug.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 30.5vw;
+  margin-left: 24.3vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug2 {
+  width: 13vw;
+  height: 13vw;
+  background-image: url(../images/krug2.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 34vw;
+  margin-left: 51vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug3 {
+  width: 11vw;
+  height: 10vw;
+  background-image: url(../images/krug3.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 23vw;
+  margin-left: 48vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug4 {
+  width: 6vw;
+  height: 8vw;
+  background-image: url(../images/krug4.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 37vw;
+  margin-left: 45vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug5 {
+  width: 9vw;
+  height: 8vw;
+  background-image: url(../images/krug5.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 16vw;
+  margin-left: 56.5vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug6 {
+  width: 13vw;
+  height: 10.5vw;
+  background-image: url(../images/krug6.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 13vw;
+  margin-left: 33vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug7 {
+  width: 19.3vw;
+  height: 13vw;
+  background-image: url(../images/krug7.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 15vw;
+  margin-left: 9vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug8 {
+  width: 10vw;
+  height: 10.5vw;
+  background-image: url(../images/krug8.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 28vw;
+  margin-left: 12vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug9 {
+  width: 11vw;
+  height: 9.5vw;
+  background-image: url(../images/krug9.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 24vw;
+  margin-left: 0vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.krug10 {
+  width: 11vw;
+  height: 13vw;
+  background-image: url(../images/krug10.svg);
+  background-size: cover;
+  position: absolute;
+  margin-top: 39vw;
+  margin-left: 4.5vw;
+  z-index: 5;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.errorlast1 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 190vw;
+  left: 76vw;
+  z-index: 6;
+}
+.errorlast2 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 192vw;
+  left: 73vw;
+  z-index: 6;
+}
+.errorlast3 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 195vw;
+  left: 70vw;
+  z-index: 6;
+}
+.errorlast4 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 197vw;
+  left: 68vw;
+  z-index: 6;
+}
+.errorlast5 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 199vw;
+  left: 71vw;
+  z-index: 6;
+}
+.errorlast6 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 201vw;
+  left: 74vw;
+  z-index: 6;
+}
+.errorlast7 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 204vw;
+  left: 70vw;
+  z-index: 6;
+}
+.errorlast8 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 206vw;
+  left: 67vw;
+  z-index: 6;
+}
+.errorlast9 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 205vw;
+  left: 64vw;
+  z-index: 6;
+}
+.errorlast10 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 205vw;
+  left: 60vw;
+  z-index: 6;
+}
+.errorlast11 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 204vw;
+  left: 57vw;
+  z-index: 6;
+}
+.errorlast12 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 202vw;
+  left: 54vw;
+  z-index: 6;
+}
+.errorlast12 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 203vw;
+  left: 50vw;
+  z-index: 6;
+}
+.errorlast-1 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 177vw;
+  left: 60vw;
+  z-index: 6;
+}
+.errorlast-2 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 179vw;
+  left: 61vw;
+  z-index: 6;
+}
+.errorlast-3 {
+  background-image: url("../images/error.png");
+  position: absolute;
+  top: 183vw;
+  left: 67vw;
+  z-index: 6;
+}
+.errorlast > div {
+  position: absolute;
+  width: 23vw;
+  height: 17vw;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
