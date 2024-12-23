@@ -586,18 +586,35 @@
 }
 .heartr {
   animation: heartbb 0.4s infinite;
+  animation-direction: alternate-reverse;
 }
 .heartr2 {
   animation: heartbb 0.5s infinite;
+  animation-direction: alternate-reverse;
 }
 .heartr3 {
-  animation: heartbb 0.6s infinite;
+  animation: heartbb 0.55s infinite;
+  animation-direction: alternate-reverse;
 }
 @keyframes heartbb {
   0% {
     opacity: 0%;
+    background-position: 0 top;
   }
   100% {
     opacity: 100%;
+    background-position: 0 -0.3vw;
+  }
+}
+.anna {
+  animation: annaa 0.3s infinite ease-in-out;
+  animation-direction: alternate-reverse;
+}
+@keyframes annaa {
+  from {
+    background-position: 0 top;
+  }
+  to {
+    background-position: -1vw top;
   }
 }
