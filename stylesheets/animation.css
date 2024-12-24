@@ -199,7 +199,7 @@
 }
 
 .text1 {
-  animation: playyy 0.8s linear infinite;
+  animation: playyy 3s linear infinite;
 }
 .text1:hover {
   animation-duration: 4s;
@@ -357,7 +357,7 @@
   }
 }
 .textplus {
-  animation: strr 0.8s linear infinite;
+  animation: strr 2s linear infinite;
 }
 .textplus:hover {
   animation-duration: 4s;

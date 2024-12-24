@@ -100,25 +100,32 @@
     width: 100vw;
     height: 50vw;
   }
-  .textt2,
-  .textt3 {
-    margin-top: -50vw;
-    width: 50vw;
-    height: 50vw;
-    background-image: url("../images/color.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-
   .text2,
   .text3,
   .text4,
-  .text6,
-  .text8,
-  .text10,
-  .text3,
   .text5,
   .text6,
+  .text7,
+  .text8,
+  .text9,
+  .text10 {
+    position: absolute;
+    margin-top: -50vw;
+    width: 80vw;
+    height: 70vw;
+    background-image: url("../images/mon.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .text3,
+  .text5,
+  .text7,
+  .text9 {
+    display: none;
+  }
+
+  .textt2,
+  .textt3,
   .textt4,
   .textt5,
   .textt6,
@@ -126,16 +133,234 @@
   .textt8,
   .textt9,
   .textt10 {
-    display: none;
-  }
-  .text3,
-  .text5 {
     position: absolute;
-    margin-top: -60vw;
-    width: 53vw;
-    height: 50vw;
-    background-image: url("../images/mon.png");
+    margin-top: -40vw;
+    width: 44vw;
+    height: 44vw;
+    background-image: url("../images/color.png");
     background-size: contain;
     background-repeat: no-repeat;
+  }
+  .textt3,
+  .textt5,
+  .textt7,
+  .textt9 {
+    display: none;
+  }
+  .str {
+    display: none;
+  }
+
+  .kvnow {
+    width: 100vw;
+    height: 80vw;
+    background-image: url(../images/zamena.svg);
+    background-size: contain;
+    position: absolute;
+    margin-top: -15vw;
+  }
+  .kvnow2 {
+    width: 50vw;
+    height: 7vw;
+    background-image: url(../images/kvnow2.svg);
+    background-size: cover;
+    position: absolute;
+    margin-top: 8vw;
+    margin-left: 50vw;
+    z-index: 10;
+  }
+  .kover {
+    width: 100vw;
+    height: 28vw;
+    background-image: url(../images/kover.svg);
+    background-size: cover;
+    position: absolute;
+    margin-top: 10vw;
+    margin-left: 0vw;
+    z-index: 4;
+  }
+  .kv {
+    display: none;
+  }
+  .myeye {
+    width: 100vw;
+    height: 110vw;
+    margin-top: 35vw;
+    margin-left: 0vw;
+  }
+  .hse {
+    display: none;
+  }
+  .gg {
+    display: none;
+  }
+  .anna {
+    display: none;
+  }
+  .gameover {
+    display: none;
+  }
+
+  .heartb {
+    display: none;
+  }
+  .heartb2 {
+    display: none;
+  }
+  .heartb3 {
+    display: none;
+  }
+  .name {
+    display: none;
+  }
+  .heartr {
+    display: none;
+  }
+  .heartr2 {
+    display: none;
+  }
+  .heartr3 {
+    display: none;
+  }
+  .kvlastt {
+    display: none;
+  }
+  .myeye2 {
+    display: none;
+  }
+  .errorlast1 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 190vw;
+    left: 76vw;
+    z-index: 6;
+  }
+  .errorlast2 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 192vw;
+    left: 73vw;
+    z-index: 6;
+  }
+  .errorlast3 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 195vw;
+    left: 70vw;
+    z-index: 6;
+  }
+  .errorlast4 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 197vw;
+    left: 68vw;
+    z-index: 6;
+  }
+  .errorlast5 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 199vw;
+    left: 71vw;
+    z-index: 6;
+  }
+  .errorlast6 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 201vw;
+    left: 74vw;
+    z-index: 6;
+  }
+  .errorlast7 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 204vw;
+    left: 70vw;
+    z-index: 6;
+  }
+  .errorlast8 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 206vw;
+    left: 67vw;
+    z-index: 6;
+  }
+  .errorlast9 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 205vw;
+    left: 64vw;
+    z-index: 6;
+  }
+  .errorlast10 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 205vw;
+    left: 60vw;
+    z-index: 6;
+  }
+  .errorlast11 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 204vw;
+    left: 57vw;
+    z-index: 6;
+  }
+  .errorlast12 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 202vw;
+    left: 54vw;
+    z-index: 6;
+  }
+  .errorlast12 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 203vw;
+    left: 50vw;
+    z-index: 6;
+  }
+  .errorlast-1 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 177vw;
+    left: 60vw;
+    z-index: 6;
+  }
+  .errorlast-2 {
+    background-image: url("../images/error.png");
+    position: absolute;
+    top: 179vw;
+    left: 61vw;
+    z-index: 6;
+  }
+  .errorlast1,
+  .errorlast2,
+  .errorlast3,
+  .errorlast4,
+  .errorlast5,
+  .errorlast6,
+  .errorlast7,
+  .errorlast8,
+  .errorlast9,
+  .errorlast-3,
+  .errorlast-2,
+  .errorlast-1 {
+    display: none;
+  }
+  .errorlast10 {
+    top: 260vw;
+    left: 60vw;
+  }
+  .errorlast11 {
+    top: 268vw;
+    left: 30vw;
+  }
+  .errorlast12 {
+    top: 260vw;
+    left: 0vw;
+  }
+  .errorlast > div {
+    width: 40vw;
+    height: 30vw;
   }
 }
