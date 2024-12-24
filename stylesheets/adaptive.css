@@ -1,12 +1,8 @@
 /* проба второй экран */
 @media screen and (max-width: 767px) {
   .screen1 {
-    position: relative;
     width: 140vw;
     height: 90vw;
-    background-image: url("../images/eyesvect.png");
-    background-size: cover;
-    width: 100%;
   }
 
   .kv {
@@ -374,3 +370,18 @@
     overflow: hidden;
   }
 }
+/* @media screen and (max-width: 413px) {
+  .screen1 {
+    width: 220vw;
+    height: 140vw;
+    top: 0;
+    left: -17vw;
+    overflow: hidden;
+  }
+}
+.line {
+  display: none;
+}
+.text1 {
+  display: none;
+} */
