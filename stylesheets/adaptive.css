@@ -363,4 +363,14 @@
     width: 40vw;
     height: 30vw;
   }
+  .hootaruu {
+    position: absolute;
+    width: 80vw;
+    height: 50vw;
+    margin-top: 93vw;
+    margin-left: 15vw;
+
+    z-index: 100;
+    overflow: hidden;
+  }
 }
